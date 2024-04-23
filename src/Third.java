@@ -17,10 +17,10 @@ public class Third {
                 a.add(y);
             }
             if (x == 3){
-                System.out.println(a.get(0));
+                System.out.println(a.getFirst());
             }
             if (x == 4){
-                System.out.println(a.get(a.size()-1));
+                System.out.println(a.getLast());
             }
         }
     }
