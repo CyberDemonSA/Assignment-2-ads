@@ -18,9 +18,11 @@ public class Third {
             }
             if (x == 3){
                 System.out.println(a.getFirst());
+//                a.removeFirst();
             }
             if (x == 4){
                 System.out.println(a.getLast());
+//                a.remove(a.size()-1);
             }
         }
     }
